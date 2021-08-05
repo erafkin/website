@@ -2,7 +2,7 @@ import React from 'react';
 
 const Qualifications = (props) => {
   return (
-    <div className="block" id="qual">
+    <div className="block">
       <h1>Qualifications</h1>
       <div className="school">
         <h2 style={{ color: '#8eead1' }}>Stack</h2>
