@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    background-color: #0E0035;
+    color: #DCFAF3;
+    font-family: 'Quicksand', sans-serif;
+}
+span{
+    color: #8eead1;
+    text-decoration-color: #8eead1;
+    text-decoration: underline;
+}
+img{
+    width:50px;
+    margin: 1%;
+}
+.landing-page{
+    height: 100vh;
+    text-align: center;
+}
+.title{
+    padding-top: 15%;
+    color: #DCFAF3;
+    margin: 0 auto;
+    width: 50%;
+}
+.name{
+    font-size: 48pt;
+    text-align: center;
+    color:#8eead1;
+}
+#particles canvas{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.links{
+    width:100%;
+    position: absolute;
+    text-align: right;
+    padding-top: 2%;
+    margin-right:10%;
+    bottom: top;
+    vertical-align: top;
+    z-index: 2;
+}
+.block {
+    height: 100vh;
+    margin: 5%;
+}
+a{
+    color: white
+}
+a:visited{
+    color: white
+}
+.spanlink{
+    text-decoration: none;
+}
+.aboutBlurb{
+    text-align: left;
+    line-height: 1.5em;
+    display: flex;
+    align-content: left;
+    font-size: 2.5vh;
+}
+
+.personalPic{
+    border-style: solid;
+    border-color: none;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    margin-top: 5%;
+}
+
+#qual{
+    padding-top: 10%;
+}
+.list{
+    border-style: solid;
+    border-color:  #8eead1;
+    line-height: 2em;
+    padding-top: 3%;
+    min-height: 70vh;
+}
+.school{
+    text-align: left;
+    width: 43%;
+    min-width: 300px;
+    margin:1%;
+    display: inline-block;
+    padding: 1%;
+    top:0;
+    vertical-align: top;
+  
+}
+.job{
+    text-align: left;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-bottom-color:#8eead1;
+    width: 90%;
+    margin-left: 2%;
+    padding-bottom: 2%;
+  }
+  #jobs{
+    margin: 5%;
+  }
+.jobList{
+    line-height: 2em;
+}
+h3{
+    font-size: 10pt;
+    margin: 0 auto;
+}
+.otherProject{
+    background-color: #382C5A;
+    display: inline-block;
+    width:25%;
+    margin:5%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    min-height:270px;
+    padding: 1%;
+    min-width: 200px;
+    top:0;
+    vertical-align: top;
+}
+.otherProject p{
+    text-align: left;
+}
+.touch{
+    text-align:center;
+    width:40%;
+    padding-top: 20%;
+    margin-left: 30%;
+    font-size: 20pt;
+}
